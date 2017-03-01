@@ -1,7 +1,7 @@
 # codeguide
 ## Don't Reinvent The Wheel, Unless You Plan on Learning More About Wheels
 Reinventing the wheel means to make unnessesary or redundant preparations. In programming, it means to duplicate a basic method that has already been created or optimized by others. So you shouldn't waste your time trying to create some thing that is already exist and ready to use. Using available API or libraries will make your code look easier, cleaner, and less likely to have mistakes. But if you just want to practice your skills or learn more about it, it's fine to re-create all the functions by yourself.
-  ```
+  ```java
 int x = 123;
 // print the sign of x
 if (x < 0)
@@ -20,7 +20,7 @@ Reference: https://blog.codinghorror.com/dont-reinvent-the-wheel-unless-you-plan
 When you write a code, the first thing to think about is "What is easiest way to get the job done?" Keep the code as simple as possible, so it can be easy to maintain in the future. Simple code takes less time to write, and easier to find mistakes. You don't need to use fancy features in your programming language to complete a task, if it can be re-written using a simple logic. This principle will reduce the complexity of your code, therefor it is easier to modify and understand.
 
 For an int array `int[] numbers = { 1, 4, 2, 5, 7, 2, 92, 23, 3 };` if we want to find the sum of integers inside we could:
-```
+```java
 Integer sum = null;
 try {
   Integer i = new Integer(0);
@@ -33,7 +33,7 @@ try {
 }
 ```
 But here is another simpler solution:
-```
+```java
 int sum = 0;
 for (int i = 0; i < numbers.length; i++) {
   sum += numbers[i];
