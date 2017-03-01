@@ -12,6 +12,7 @@ else
   System.out.println(1); 
   ```
 From the example above, printing the sign of a number is an easy task, but it still takes about 6 lines of code to complete it. It is also time consuming to write the code that is not the main purpose of the application, because it might cause some bugs that you overlooked. It is very useful to know about existing APIs and libraries, so you can get your task done quickly. In this example, you can find the sign of a number easily by using existing Java API `Math.signum( x );` 
-  
+
+Reference: https://blog.codinghorror.com/dont-reinvent-the-wheel-unless-you-plan-on-learning-more-about-wheels/
 ## Programming for Interface not implementation
 
